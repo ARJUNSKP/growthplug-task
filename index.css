@@ -30,6 +30,9 @@
   display: flex;
   justify-content: flex-end;
 }
+.new2{
+  display: flex;
+}
 
 .baground {
   background-image: url("https://i.postimg.cc/wj2wK4DS/young-female-patient-visiting-dentist-office.jpg");
@@ -321,6 +324,9 @@
   display: flex;
   justify-content: center;
 }
+.butt{
+  margin-top: 15px;
+}
 @media only screen and (max-width: 600px) {
   .image{
     display: none;
@@ -328,11 +334,15 @@
   .img2 {
     height: 273px;
     width: 266px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
 
   }
   .button{
     margin-top: 20px;
   }
+
   .body{
     width: 110%;
   }
@@ -341,6 +351,7 @@
   }
   #dr{
     font-size: 40px;
+    margin-bottom: 25px;
   }
   .footer{
     flex-direction: column;
@@ -357,5 +368,10 @@
     height: 57px;
     margin-top: 3px;
 }
+.new2{
+  display: flex;
+  flex-direction: column;
+}
+
 }
 
