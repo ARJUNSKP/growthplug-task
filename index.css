@@ -1,0 +1,361 @@
+.top {
+  background-image: linear-gradient(270deg, rgb(208, 208, 208) 0%, rgb(255, 255, 255) 98.49%);
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+
+}
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20px;
+}
+
+.text1 {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.navbar-text {
+  font-size: large;
+  color: #616C94;
+
+}
+.maindiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.baground {
+  background-image: url("https://i.postimg.cc/wj2wK4DS/young-female-patient-visiting-dentist-office.jpg");
+
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  font-size: 64px;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  background-position: center;
+}
+.baground2{
+  background-image: url("https://i.postimg.cc/SQB26HZk/abstract-surface-wood-texture-background.jpg");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+
+.btn {
+  border-radius: 12px;
+  outline-style: hidden;
+  color: white;
+}
+
+.img2 {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+
+}
+#imgnew{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+
+}
+
+#id7 {
+  text-align: center;
+}
+
+#id8 {
+  padding: 30px 0 0;
+  font-size: 35px;
+  letter-spacing: 0.6px;
+  color: #616C94;
+  font-weight: 400;
+  
+}
+#id9{
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.1;
+  margin-top: 10px;
+
+}
+#dr{
+  color: #616C94;
+  font-size: 64px;
+  margin-top: 20px;
+  font-weight: 500;
+  line-height: 1.1;
+
+}
+#img3{
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+  
+}
+.image{
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 40px;
+
+
+}
+.service{
+  padding: 30px;
+}
+
+#drs{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+.drs2{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 10px;
+
+}
+#drs3{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.slider1{
+
+  background-color: #D3E6E2 !important;
+  border: 2px solid #FFFFFF;
+  margin: 10px;
+  height:70%;
+  text-align: center;
+}
+.smile{
+  background-image: url("https://i.postimg.cc/Kzx08NQ1/wepik-export-20231103081801-Jso-C.png");
+
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  background-position: center;
+  text-align: center;
+}
+.map{
+  background-image: url("https://i.postimg.cc/76cdYRtq/Home-2.png");
+
+  width: 100%;
+  height: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  background-position: center;
+  text-align: center;
+}
+.foot{
+  height: auto;
+  margin-top: 30px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+
+
+.slick-slider button {
+  position:fixed;
+  outline: "none";
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 35px;
+  background-color: orange;
+  color: white;
+ 
+} 
+ .slick-slider .slick-prev {
+  left: -30px;
+  font-size: 0;
+} 
+
+.slick-slider .slick-prev::before {
+  content: '>';
+  line-height: 1;
+  font-size: 25px;
+} 
+
+
+
+ .slick-slider .slick-next {
+  right: -30px;
+  font-size: 0;
+}
+
+.slick-slider .slick-next::after {
+  content:'<';
+  line-height: 1;
+  font-size: 25px;
+} 
+
+
+
+.slick-dots{
+  text-align: center;
+}
+
+.slick-dots li{
+  display: inline-block;
+  padding: 1px;
+  background-color: #ccc;
+  margin: 10px 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.slick-dots button{
+  display: none;
+}
+
+.slick-dots li.slick-active{
+  background:#ffc107;
+}
+
+.slick-slider img{
+  width: 100%;
+  height: 250px;
+}
+
+
+
+.slick-slide {
+  padding:40px 0;
+  position: relative;
+  height:auto !important;
+  opacity: 0.5;
+  transition: all 900ms ease;
+}
+
+.slick-current {
+  opacity: 1;
+  transform: scale(1.2);
+  z-index: 99;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+} 
+
+.slick-slide .xyz{
+  opacity: 0;
+}
+
+.slick-current .xyz{
+  opacity: 1;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ 
+}
+.container{
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  color:rgb(217, 222, 240);
+ 
+
+}
+.drimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.logo{
+  margin-right: 200px;
+  width: 60px;
+  height: 61px;
+}
+.logo1{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.pati{
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  .image{
+    display: none;
+  }
+  .img2 {
+    height: 273px;
+    width: 266px;
+
+  }
+  .button{
+    margin-top: 20px;
+  }
+  .body{
+    width: 110%;
+  }
+  .btn{
+    margin-top: 10px;
+  }
+  #dr{
+    font-size: 40px;
+  }
+  .footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .top{
+    display: none;
+  }
+  .logo {
+    margin-right: 240px;
+    width: 55px;
+    height: 57px;
+    margin-top: 3px;
+}
+}
+
